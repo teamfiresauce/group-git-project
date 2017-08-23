@@ -1,7 +1,39 @@
 body {
-    background-color:whitesmoke;
+	background-color:whitesmoke;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+	width:50%;
+	margin: 0 25%;
+	color: gray;
+}
+
+header p {
+	border-bottom: 1px solid gray;
+}
+
+header p img {
+	text-align: left;
+	width: 50px;
+}
+
+header div {
+	padding:10px;
+	text-align: right;
+}
+
+header div a {
+	padding: 0 10px;
+}
+
+header div span:hover {
+	color: darkslategray;
+}
+
+header div span a:hover {
+	color: darkslategray;
+}
 /*SLIDER*/
 *{margin:0; padding:0; list-style:none;}
 a{text-decoration:none;	color:#666;}
