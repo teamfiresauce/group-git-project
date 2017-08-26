@@ -184,3 +184,54 @@ h3 {font-size: 14pt;
 	bottom: 120px;
 }
 
+.branding {
+	color: #1abc9c;
+}
+
+.row{
+	clear:both;
+	width: 96%;
+	padding-bottom: 15px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.row h2 {
+	float: left;
+	padding: none;
+	margin: none;
+}
+
+.row h3 {
+	font-size: 16px;
+}
+
+.column {
+	float: left;
+	width: 23%;
+	padding-left: 2%;
+}
+
+.column .about-photos img{
+	width: 100%;
+}
+
+.about-p {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.social {
+	float: right;
+	display: inline;
+}
+
+.social ul li{
+	display: inline;
+}
+
+
+
+
+
+
