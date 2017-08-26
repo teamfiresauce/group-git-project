@@ -1,5 +1,6 @@
 body {
     background-color:whitesmoke;
+    /* correct color should be #e7e7e6 */ 
 }
 
 /*SLIDER*/
@@ -156,3 +157,30 @@ h2{ color: #7f8c8d; font-family: Neucha, Arial, sans serif; font-size:18px; marg
 	transition: all 0.3s cubic-bezier(1,.01,.32,1);	
 }
 /*End of Slider*/
+
+/*SEO Content*/
+.wrapper{
+	width:1250px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+h3 {font-size: 14pt;
+	font-family:;
+	color: #79acdc;
+
+}
+
+.box {
+	width: 23%;
+	margin-left: .5%;
+	margin-right: .5%;
+	float:left;
+}
+
+.five {
+	width: 69%;
+	position:relative;
+	bottom: 120px;
+}
+
