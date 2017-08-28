@@ -189,6 +189,154 @@ h2{ color: #7f8c8d; font-family: Neucha, Arial, sans serif; font-size:18px; marg
 }
 /*End of Slider*/
 
+/*Black Bar*/
+#blackbar {
+	background-color: black;
+	width: 100%;
+	height: 200px;
+}
+
+
+
+#blackbar p {
+	font-size: .7em;
+	color: white;
+	float: left;
+	margin: 0 0 .1em 0;
+}
+/*End of Black Bar */
+
+/*Black Bar Left*/
+#blackbarleft{
+	width: 50%;
+	margin: 0 .5em 0% 40%;
+	position: absolute;
+	right: 300px;
+	top:600px;
+		
+	
+ 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	
+	-moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+	
+	-webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+}
+
+
+
+#blackbarleft h2 {
+
+	color: white;
+	float: left;
+	font-size: 1.2em;
+	margin:  .0em 0 .2em 0;
+	
+}
+
+#blackbarleft li {
+	color: white;
+	font-size: .7em;
+	padding: .2em;
+}
+
+#blackbarleft ul {
+	margin-top: 6.5em;
+}
+
+/*Black Bar Right*/
+
+#blackbarright{
+	width: 17%;
+	margin: 0 -5% 20% 67%;
+	position: absolute;
+	left: 0px;
+	top:600px;
+		
+	
+ 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	
+	-moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+	
+	-webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+}
+
+#blackbarright h2 {
+
+	color: white;
+	 margin-bottom: .5em;
+	font-size: 1.2em;
+	
+}
+#blackbarright h3 {
+
+	color: white;
+	font-size: .7em;
+	margin:  .5em 0 .5em 0;
+	
+}
+#blackbarright img{
+	width: 15%;
+	margin: .05em 0 0 0;
+	position: absolute;
+	top: -3px;
+	
+}
+
+#blackbarright button{
+	margin: 1.8em 0 0 0;
+	 background-color: #580304; 
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	border-radius: 9px;
+	
+}
+ #blackbarright .sum {
+	font-size: 1.1em;
+ 	color: lightgrey;
+	margin-top: .3em;
+}
+ #blackbarright .firsttitle {
+	font-size: .7em;
+ 	color: pink;
+}
+ #blackbarright .secondtitle {
+	font-size: .7em;
+ 	color: red;
+}
+ #blackbarright .thirdtitle {
+	font-size: .7em;
+ 	color: orangered;
+}
+/*End of Black Bar Right*/
+/*End of Black Bar Left*/
+
+
+
 /*SEO Content*/
 .wrapper{
 	width:1250px;
