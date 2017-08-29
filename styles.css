@@ -3,6 +3,40 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+footer {
+	box-shadow: 1px 1px 1px solid gray;
+	z-index: 9999;
+	margin-top: 500px;
+	width:60%;
+	margin:20px 20%;
+	background-color:white;
+	padding:10px;
+}
+
+footer .top {
+	display: flex;
+}
+
+footer .bottom {
+	margin:10px 0;
+	background-color: #4294E0;
+	padding:10px;
+	display:flex;
+}
+
+footer .bottom span {
+	justify-content: space-between;
+	color: white;
+	font-size:12px;
+	width:50%;
+}
+
+footer .top div {
+	justify-content: space-between;
+	width: 20%;	
+	display:inline;
+}
+
 header {
 	width:50%;
 	margin: 0 25%;
